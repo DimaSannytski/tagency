@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.error {
+    color:red;
+}
+
+body {
+    margin: 0;
+    font: 14px/20px Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.header {
+    margin-bottom: 20px;
+    height: 69px;
+    background-color: white;
+    width: calc(100% - 170px);
+    border-bottom: 1px solid #e5e4e5;
+    padding-left: 50px;
+    padding-right: 120px;
+}
+
+.header a  {
+    color: #565656;
+    font-size: 1.5em;
+    margin: 23px 10px 10px;
+    font-family: Fedra Sans, sans-serif;
+    float: right;
+}
+
+.header a.exit  {
+    color: #908f90;
+}
+
+a {
+    color: #908f90;
+}
+
+.header a:hover {
+    color: #646464;
+}
+
+
+input.logout{
+    font-size:1.3em;
+    float: right;
+    background-color: white;
+    margin-top: -55px;
+    border: 1px solid #dadada;
+}
+
+input {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: 4px;
+    color: #626262;
+    border-radius: 0;
+}
+textarea {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: 4px;
+    color: #626262;
+    border-radius: 0;
+}
+
+input:focus {
+    border: 1px solid #b7b6b6;
+    outline: none;
+}
+
+input:hover {
+    border: 1px solid #b7b6b6;
+}
+
+input:invalid {
+    border-color: #ff6f77;
+}
+
+form.login {
+    background-color: #fefefe;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.menuArt {
+    justify-content: center;
+}
+
+
+.midl {
+    justify-content: center;
+    text-align: center;
+}
+
+.article a.exit {
+    color: #4b4b4b;
+}
+
+.article {
+    padding: 50px;
+    float: left;
+    min-height: calc(100vh - 284px);
+    width: 80%;
+    background-color: white;
+    border-right: 1px solid #dadada;
+    border-left: 1px solid #dadada;
+    border-top: 1px solid #e5e4e5;
+    border-bottom: 2px solid #ee6968;
+    color: dimgrey;
+    justify-content: center;
+    margin-left: 7%;
+}
+
+.footer {
+    margin-top: 20px;
+    float: right;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #969595;
+    background-color: #f0f0f0;
+    text-align: center;
+    color: #5b5b5b;
+    padding-top: 20px;
+}
+
+.article a.exit{
+    color: #4b4b4b;
+}
+
+button {
+    color: aliceblue;
+    background-color: #d73b49;
+    border: 0 solid #04759f;
+    padding: 11px 31px 11px 31px;
+    margin: 12px;
+    box-shadow: none;
+}
+
+button:hover {
+      color: aliceblue;
+      background-color: #cb3542;
+      border: 0 solid #04759f;
+      box-shadow: none;
+  }
+
+button:focus {
+    background-color: #fb5a5b;
+    border-left: 0 solid #04759f;
+    outline:none;
+}
+
+.hotel {
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+    padding: 20px;
+    margin: 3px;
+    height: 100px;
+    display: block;
+    border-radius:7px;
+}
+.room {
+    background-color: #ffffff;
+    border: 1px solid #ababab;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius:7px;
+}
+
+a.likeButton {
+    color: aliceblue;
+    background-color: #565656;
+    border: 0 solid #04759f;
+    padding: 11px 31px 11px 31px;
+    margin: 3px 3px 10px;
+    box-shadow: none;
+    border-radius:7px;
+}
+
+h1 {
+   margin: 5px;
+}
+
+h2 {
+    margin: 5px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+.simpleForm{
+    margin:10px;
+}
+
+.simpleForm button{
+    background-color: #545454;
+    border: 0 solid #04759f;
+    border-radius:7px;
+    text-align:center;
+    margin: 10px 10px 10px;
+}
+
+.border{
+    border: 1px solid #dadada;
+    background-color: #f9f9f9;
+}
+
+.simpleForm textarea {
+    margin: 10px;
+    height: 60px;
+    width: 300px;
+    border: 1px solid #dadada;
+    border-radius:7px;
+}
+
+.simpleForm input {
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #dadada;
+    border-radius:7px;
+}
+
+.simpleCheckBox {
+    margin: 10px;
+    width: 100px;
+    border-radius:7px;
+}
+
+.simpleForm select {
+    margin: 10px;
+    border: 1px solid #dadada;
+    border-radius:7px;
+    padding: 7px;
+}
+
+table {
+    margin: 10px;
+    border: 1px solid #e7e7e7;
+    border-radius:7px;
+    width: 100%;
+}
+
+td {
+    padding: 7px;
+    border-bottom: 1px solid #dadada;
+}
+
+th {
+    padding: 7px;
+    background-color: #f6f6f6;
+}
+
+a.rightSide {
+    float: right;
+}
