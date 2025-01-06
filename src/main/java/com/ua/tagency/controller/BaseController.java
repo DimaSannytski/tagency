@@ -37,6 +37,7 @@ public class BaseController {
     public String showAdmin() {
         return "admin";
     }
+
     @PostMapping("/register")
     public String createUser(@ModelAttribute("registerModel") @Valid RegisterDto registerDto, BindingResult result) {
         if(result.hasErrors()) {

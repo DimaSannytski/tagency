@@ -13,8 +13,10 @@ import java.util.List;
 @Entity
 @Table(name = "user_role")
 public class UserRole extends BaseEntity {
+
     @Enumerated(EnumType.STRING)
     private UserRoleEnum role;
+
     @OneToMany(mappedBy="userRole",cascade = CascadeType.ALL)
     List<Person> personList;
 }

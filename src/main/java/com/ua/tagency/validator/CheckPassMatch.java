@@ -16,5 +16,4 @@ public @interface CheckPassMatch {
     String message() default "Entered passwords do not match";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
-
 }

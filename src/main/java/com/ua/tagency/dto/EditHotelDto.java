@@ -11,12 +11,16 @@ import javax.validation.constraints.NotNull;
 @Setter
 @NoArgsConstructor
 public class EditHotelDto {
+
     @NotNull
     private Integer id;
+
     @NotEmpty
     private String name;
+
     @NotEmpty
     private String address;
+
     @NotNull
     private Integer countryId;
     private String description;

@@ -8,5 +8,4 @@ import org.hibernate.criterion.Order;
 public interface OrderMapper {
     RoomOrder map(CreateOrderDto dto);
     OrderPageDto map(RoomOrder roomOrder);
-
 }

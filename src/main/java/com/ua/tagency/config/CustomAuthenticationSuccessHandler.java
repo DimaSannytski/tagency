@@ -16,6 +16,7 @@ import java.util.Collection;
 
 @Component
 public class CustomAuthenticationSuccessHandler implements AuthenticationSuccessHandler {
+
     private final String ADM_PAGE = "/hotels";
     private final String USER_PAGE = "/hotels";
     private final RedirectStrategy redirectStrategy = new DefaultRedirectStrategy();
@@ -30,6 +31,7 @@ public class CustomAuthenticationSuccessHandler implements AuthenticationSuccess
 
     private void handle(HttpServletRequest request, HttpServletResponse response, Authentication authentication)
             throws IOException {
+
         String targetUrl = determinateTargetUrl(authentication);
         if (response.isCommitted()) {
             return;

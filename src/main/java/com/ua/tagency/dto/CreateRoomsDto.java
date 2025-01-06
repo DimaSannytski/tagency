@@ -8,6 +8,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class CreateRoomsDto {
+
     private Integer hotelId;
     private String prefix;
     private String suffix;

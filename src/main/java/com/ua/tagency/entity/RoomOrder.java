@@ -20,14 +20,19 @@ import java.util.Date;
 @Entity
 @Table(name = "room_order")
 public class RoomOrder extends BaseEntity {
+
     @Column(name = "start_date")
     private Date startDate;
+
     @Column(name = "end_date")
     private Date endDate;
+
     @ManyToOne
     private Person creator;
+
     @ManyToOne
     private Person manager;
+
     @ManyToOne
     private Room room;
 }

@@ -13,6 +13,7 @@ import java.text.SimpleDateFormat;
 
 @Component
 public class RoomMapperImpl implements RoomMapper {
+
     @Override
     public RoomDto map(Room room) {
         return null;

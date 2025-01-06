@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CheckPassMatchVal implements ConstraintValidator<CheckPassMatch, RegisterDto> {
+
     @Override
     public void initialize(CheckPassMatch constraintAnnotation) {
         ConstraintValidator.super.initialize(constraintAnnotation);

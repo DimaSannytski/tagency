@@ -17,7 +17,6 @@ public class UniqueEmailVal implements ConstraintValidator<UniqueEmail, String> 
         this.personDao = personDao;
     }
 
-
     @Override
     public void initialize(UniqueEmail constraintAnnotation) {
         ConstraintValidator.super.initialize(constraintAnnotation);

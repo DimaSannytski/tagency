@@ -13,8 +13,10 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 public class CreateOrderDto {
+
     @DateTimeFormat(pattern = Constants.DATE_PATTERN)
     private Date startDate;
+
     @DateTimeFormat(pattern = Constants.DATE_PATTERN)
     private Date endDate;
     private Integer roomId;

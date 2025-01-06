@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class PersonMapperImpl implements PersonMapper {
+
     @Override
     public Person registerDtoToPerson(RegisterDto dto) {
         Person person = new Person();
@@ -39,5 +40,4 @@ public class PersonMapperImpl implements PersonMapper {
         dto.setEmail(person.getEmail());
         return dto;
     }
-
 }

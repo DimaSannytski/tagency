@@ -14,14 +14,19 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 public class Hotel extends BaseEntity {
+
     @Column
     private String name;
+
     @Column
     private String address;
+
     @Column
     private String description;
+
     @OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL)
     private List<Room> rooms;
+
     @ManyToOne
     private Country country;
 }

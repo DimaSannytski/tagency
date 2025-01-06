@@ -10,10 +10,13 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class CreateHotelDto {
+
     @NotEmpty
     private String name;
+
     @NotEmpty
     private String address;
+
     @NotNull
     private Integer countryId;
     private String description;

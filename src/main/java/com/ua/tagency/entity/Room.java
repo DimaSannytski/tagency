@@ -14,6 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 public class Room extends BaseEntity {
+
     @ManyToOne
     private Hotel hotel;
     @Column

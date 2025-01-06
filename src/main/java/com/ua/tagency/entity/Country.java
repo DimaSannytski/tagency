@@ -17,8 +17,10 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 public class Country extends BaseEntity {
+
     @Column(name = "name")
     private String name;
+
     @OneToMany(mappedBy = "country", cascade = CascadeType.ALL)
     private List<Hotel> hotels;
 }

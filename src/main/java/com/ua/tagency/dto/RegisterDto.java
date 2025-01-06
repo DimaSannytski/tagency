@@ -13,14 +13,19 @@ import lombok.Setter;
 @NoArgsConstructor
 @CheckPassMatch
 public class RegisterDto {
+
     @NotEmpty
     private String firstName;
+
     @NotEmpty
     private String lastName;
+
     @Min(value = 6)
     private String password;
+
     @Min(value = 6)
     private String passwordConfirmation;
+
     @UniqueEmail
     @NotEmpty
     private String email;
